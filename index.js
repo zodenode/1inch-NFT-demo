@@ -33,7 +33,7 @@ app.get('/fetchNfts', async (req, res) => {
 
   } catch (error) {
     console.error("Axios Error: ", error.response);
-    res.status(500).json({ error: 'Failed to fetch NFTs' });
+    res.status(500).json({ error: 'Failed to fetch NFTs :(' });
   }
 });
 
